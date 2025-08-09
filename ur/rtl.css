@@ -1,0 +1,8 @@
+/* RTL adjustments and Urdu font */
+:root { --font-ur: 'Noto Nastaliq Urdu', system-ui, sans-serif; }
+body { font-family: var(--font-ur); direction: rtl; text-align: right; }
+#nav .links li { margin-left: 0.75rem; margin-right: 0; }
+#nav .icons { justify-content: flex-start; }
+ul.actions li { margin-left: 0; margin-right: 1rem; }
+blockquote { border-right: 0.25em solid rgba(0,0,0,0.25); border-left: none; padding-right: 1em; padding-left: 0; }
+.button { letter-spacing: 0; }
